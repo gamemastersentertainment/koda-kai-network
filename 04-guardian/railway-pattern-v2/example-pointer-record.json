@@ -1,0 +1,30 @@
+{
+  "DEMO_API_KEY": {
+    "service_label": "railway-pattern-v2-rehearsal",
+    "key_name": "DEMO_API_KEY",
+    "key_class": "api-key",
+    "fingerprint": "43e553b45cb57082c551d6f4b9aa060f61e2d2bc761c31771068c7a450f88afc",
+    "size": 182,
+    "blob_lane": {
+      "blob_id": "mXjve-K19s6LOB0rL-hu4P1XbpAj6smVR-r4GRlSg44",
+      "leg": "walrus-testnet",
+      "tier": "testnet-rehearsal"
+    },
+    "leader_packet": "\u00a7$STORE\u00a7 \u00a7KEY\u00a7DEMO_API_KEY\u00a7LOC\u00a7n=1|h=43e553b45cb57082c551d6f4b9aa060f61e2d2bc761c31771068c7a450f88afc|b=mXjve-K19s6LOB0rL-hu4P1XbpAj6smVR-r4GRlSg44",
+    "anchor": {
+      "chain": "sui-testnet",
+      "status": "DESIGNED-NOT-FIRED in this rehearsal"
+    },
+    "split": {
+      "threshold": 2,
+      "shares": 3,
+      "map_in_record": false
+    },
+    "proof_type": "commitment",
+    "proof_ref": {
+      "key_commitment": "938aae6cb17e137ae318055a642cdc581e5d793413e63199dfc94011123bcd28",
+      "custody_commitment": "27433e2c392ab558052867f3d149c623fcfbf0db6095e78966888a72eb13edeb"
+    },
+    "created": "2026-11-15"
+  }
+}

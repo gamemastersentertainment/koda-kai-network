@@ -1,0 +1,14 @@
+PASS  round-trip byte-match with shares 1+2
+PASS  round-trip byte-match with shares 1+3
+PASS  round-trip byte-match with shares 2+3
+PASS  wrong-key failure (foreign shares)
+PASS  wrong-key failure (corrupted share)
+PASS  below-threshold refusal (1 share)
+PASS  pointer service record holds no key / share / cipher / plaintext
+PASS  tamper detection (fingerprint mismatch)
+PASS  tamper detection (GCM refuses tampered cipher)
+      (blob leg used: walrus-testnet, blob_id ZFUdVm0i-2Vrn37SJ9zGsVwsK4ZvfC0WDy2ZLSnQpds)
+PASS  blob leg round-trip
+PASS  proof honesty (commitment, never snark)
+
+11 passed, 0 failed
